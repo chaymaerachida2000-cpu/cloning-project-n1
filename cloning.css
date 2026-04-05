@@ -98,24 +98,21 @@ box-sizing: border-box;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    text-decoration-color: honeydew;
-    background-color:transparent;
-    color: pink
-
+    width: 100%; 
 }
 
-
- .button-container{
+.button-container {
     background-color: pink;
-    padding:5px;
-    border: 5px solid rgb(235, 109, 130); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 10px 20px;
+    border: 5px solid rgb(235, 109, 130);
+    display: inline-block; 
+    margin-top: 20px;      
+    cursor: pointer;
 }
 .get-started-btn {
-    display: inline-block; 
-    white-space: nowrap; 
+    text-decoration: none;
+    color: white;
+}
 .gallery-container{
     max-width: 100%; 
     display: grid;
